@@ -1,0 +1,37 @@
+.container{
+    /*background-image: url(../../Images/HyperLoop.jpg);*/
+
+    text-align: center;
+    color: white;
+    font-style: italic;
+    /*background-color: blue; */
+}
+            
+.container header{
+    font-size: 400%;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.ComingSoonText{
+    font-size: 150%;
+}
+
+.container section{
+    margin-top: 50px;
+    text-align: left;
+}
+            
+.container section a{
+    color: black;
+}
+
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+
+   .container header{
+       font-size: 380% !important;
+       margin-top: 0px;
+   }
+}
